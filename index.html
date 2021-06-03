@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>FCC: Product Landing Page</title>
+</head>
+
+<body>
+  <!-- Header: Navbar & Logo -->
+  <header id="header">
+    <div id="logo"><img src="img/fender-logo.png" alt="" id="header-img"></div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How it Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div id="hero">
+    <h2>We don't just make guitars. We make players</h2>
+    <div class="container">
+      <form action=" https://www.freecodecamp.com/email-submit" id="form">
+        <div class="form-content">
+          <input type="email" name="email" id="email" class="email" placeholder="Enter your email address">
+          <input type="submit" value="Get Started" class="btn" id="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div id="features">
+    <div class="container">
+      <div class="icon">
+        <i class="fa fa-3x fa-fire"></i>
+      </div>
+      <div class="desc">
+        <h2>Premium Materials</h2>
+        <p>Our guitars use the high quality woods which are sourced locally. This will increase the longevity of your
+          purchase.</p>
+      </div>
+      <div class="icon">
+        <i class="fa fa-3x fa-truck"></i>
+      </div>
+      <div class="desc">
+        <h2>Fast Shipping</h2>
+        <p>We make sure you recieve your guitar as soon as we have finished making it. We also provide free returns if
+          you are not satisfied.</p>
+      </div>
+      <div class="icon">
+        <i class="fa fa-3x fa-battery-full"></i>
+      </div>
+      <div class="desc">
+        <h2>Quality Assurance</h2>
+        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
+          pitch of your instrument.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- How It Works Section -->
+  <div id="how-it-works">
+    <iframe id="video" height="300" width="550" src="https://www.youtube.com/embed/7ET8YEVedDM" frameborder="0"
+      allowfullscreen></iframe>
+  </div>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!-- Pricing Section -->
+  <div id="pricing">
+    <div class="container">
+      <div class="card">
+        <h2 class="card-title">Stratocaster</h2>
+        <h3 class="card-price">$1,200</h3>
+        <ul>
+          <li>Floyd Rose Locking Tremolo</li>
+          <li>22 Stainless Steel Medium Jumbo Frets</li>
+          <li>Augmented “D”-shaped neck with Ultra satin finish</li>
+          <li>10”-14” compound-radius fingerboard</li>
+        </ul>
+        <button class="btn">Select</button>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title">Telecaster</h2>
+        <h3 class="card-price">$1,000</h3>
+        <ul>
+          <li>Two Ultra Noiseless Vintage Telecaster single-coil pickups</li>
+          <li>22 stainless steel medium-jumbo frets</li>
+          <li>Augmented “D”-shaped neck with Ultra satin finish</li>
+          <li>10”-14” compound-radius fingerboard</li>
+        </ul>
+        <button class="btn">Select</button>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title">Mustang</h2>
+        <h3 class="card-price">$1,600</h3>
+        <ul>
+          <li>Chambered ash body</li>
+          <li>Custom Ben Gibbard pickups</li>
+          <li>3-position rotary pickup selector switch</li>
+          <li>Modern “C” neck shape</li>
+        </ul>
+        <button class="btn">Select</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p>&copy; Rush's Fender Website</p>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
